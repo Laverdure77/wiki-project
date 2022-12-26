@@ -29,7 +29,7 @@ def get_url(root : str, endpoint : str, params = None ):
 
     return message
 
-def get_leaders (_country_list):
+def get_leaders(_country_list):
     _leaders_per_country = dict()
     for country in _country_list:
         _leaders_per_country[country] = list()
@@ -56,3 +56,9 @@ with requests.Session() as s:
     # print(leaders_per_country.keys())
     for k in leaders_per_country.keys():
         print(f"{k}: total leaders = {len(leaders_per_country[k])}")
+
+
+
+
+### WIKI
+
