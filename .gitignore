@@ -1,5 +1,5 @@
-env/
-/included/
-/lib/
+/env/
+/Lib/
 /Scripts
 /include
+/__pycache__/
