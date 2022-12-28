@@ -52,6 +52,7 @@ with requests.Session() as s:
 
     # Build a dictionary { "country" : [{leaders}]}
     leaders_per_country = get_leaders(country_list)
+    print(leaders_per_country.get('be'))
 
     # print(leaders_per_country.keys())
     for k in leaders_per_country.keys():
